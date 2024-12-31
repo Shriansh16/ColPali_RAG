@@ -76,10 +76,10 @@ if st.session_state['doc_indexed']:
     text_container = st.container()
     
     with text_container:
-        text_query = st.text_input("Enter your text query")
+        text_query = st.chat_input("Enter your query")
         
-        if st.button("Search and Extract Text"):
-            if text_query:
+        
+        if text_query:
                 try:
                     # Get search results using existing index
                     results = companion.search.remote(query=text_query, k=1)
