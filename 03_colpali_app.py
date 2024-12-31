@@ -36,7 +36,7 @@ if 'requests' not in st.session_state:
     st.session_state['requests'] = []
 
 # Streamlit UI
-st.title("Upload PDFs and Chat with Their Content")
+st.title("ColPali RAG")
 
 def process_uploaded_file(uploaded_file):
     """Process the uploaded file and create index"""
