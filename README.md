@@ -6,7 +6,7 @@ The Colpali RAG (Retrieval-Augmented Generation) system is a cloud-deployed solu
 
 ### Backend:
 
-- Uses vidore/colpali-v1.2-merged (4GB) from HuggingFace.
+- Uses vidore/colpali-v1.2-merged (6GB) from HuggingFace.
 - Accessed via the byaldi library.
 - Fully deployed on the Modal Cloud Platform.
 
